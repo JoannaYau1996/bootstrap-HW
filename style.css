@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif !important;
 }
 
 body {
@@ -16,11 +16,13 @@ ul {
   list-style: none;
 }
 
-li {
+.top li,
+.footer li {
   padding: 0 7px;
 }
 
-li a {
+.top li a,
+.footer li a {
   color: #ccc;
 }
 
@@ -33,4 +35,8 @@ li a {
 }
 .carousel-caption {
   margin-bottom: 35vh;
+}
+
+.footer li {
+  margin-bottom: 10px;
 }
